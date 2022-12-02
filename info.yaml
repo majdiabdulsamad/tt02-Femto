@@ -7,6 +7,7 @@ project:
     - Femto-top.v
     - reg_file.v
     - decoder.v
+    - ibuff.v
   top_module:  "femto_top"      # put the name of your top module here, make it unique by prepending your github username
 
 # As everyone will have access to all designs, try to make it easy for someone new to your design to know what
