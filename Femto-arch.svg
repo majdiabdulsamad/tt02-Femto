@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="205mm"
+   viewBox="0 0 210 205"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.2 (1.0.2+r75+1)"
+   sodipodi:docname="Femto-arch.svg">
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="Arrow1Send"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Send"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path854" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path842" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Send-3"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Send"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path854-5" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="379.48026"
+     inkscape:cy="405.88689"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1439"
+     inkscape:window-height="958"
+     inkscape:window-x="50"
+     inkscape:window-y="27"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#48a100;fill-opacity:0.275291;stroke-width:1.565;stroke-dasharray:1.565, 4.695"
+       id="rect833"
+       width="139.72444"
+       height="144.77121"
+       x="41.48069"
+       y="33.210728" />
+    <rect
+       style="fill:#b9b42a;fill-opacity:0.275291;stroke-width:1.565;stroke-dasharray:1.565, 4.695"
+       id="rect835"
+       width="57.758366"
+       height="31.131737"
+       x="82.46373"
+       y="47.761909" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Send)"
+       d="m 111.40629,13.620882 c -0.002,5.148295 -0.0993,6.524833 0,15.685797"
+       id="path837"
+       sodipodi:nodetypes="cc" />
+    <rect
+       style="fill:#b90112;fill-opacity:0.298997;stroke-width:1.78929;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect1473"
+       width="40.355545"
+       height="31.544949"
+       x="91.165138"
+       y="92.405426" />
+    <rect
+       style="fill:#b9b42a;fill-opacity:0.275291;stroke-width:2.2;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect1475"
+       width="0.052462086"
+       height="1.2575485"
+       x="109.69711"
+       y="76.528336" />
+    <rect
+       style="fill:#d3922a;fill-opacity:0.321589;stroke-width:2.2;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect1477"
+       width="52.71262"
+       height="19.013121"
+       x="84.986603"
+       y="137.53856" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="100.22993"
+       y="111.9606"
+       id="text1483"><tspan
+         sodipodi:role="line"
+         id="tspan1481"
+         x="100.22993"
+         y="111.9606"
+         style="font-weight:bold;stroke-width:0.264583">ALU</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:8.46667px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="110.97084"
+       y="61.192509"
+       id="text1483-3"><tspan
+         sodipodi:role="line"
+         id="tspan1481-6"
+         x="110.97084"
+         y="61.192509"
+         style="font-weight:bold;font-size:8.46667px;text-align:center;text-anchor:middle;stroke-width:0.264583">Register</tspan><tspan
+         sodipodi:role="line"
+         x="110.97084"
+         y="71.775848"
+         style="font-weight:bold;font-size:8.46667px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         id="tspan1527">File</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:8.46667px;line-height:1.25;font-family:sans-serif;white-space:pre;inline-size:63.9286;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="123.34663"
+       y="158.2645"
+       id="text1483-7"
+       transform="matrix(1,0,0,0.90378667,-44.180025,1.2763998)"><tspan
+         x="123.34663"
+         y="158.2645"><tspan
+           style="font-weight:bold;font-size:6.35px;text-align:center;text-anchor:middle;stroke-width:0.264583">7 segment </tspan></tspan><tspan
+         x="123.34663"
+         y="168.84785"><tspan
+           style="font-weight:bold;font-size:6.35px;text-align:center;text-anchor:middle;stroke-width:0.264583">decoder</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.9389px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="88.180962"
+       y="41.583866"
+       id="text1531"><tspan
+         sodipodi:role="line"
+         id="tspan1529"
+         x="88.180962"
+         y="41.583866"
+         style="stroke-width:0.264583">Instruction and clk</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Send-3)"
+       d="m 111.40629,177.98236 c -0.002,5.1483 -0.0993,6.52483 0,15.6858"
+       id="path837-6"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.9389px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="96.951851"
+       y="170.43349"
+       id="text1531-2"><tspan
+         sodipodi:role="line"
+         id="tspan1529-9"
+         x="96.951851"
+         y="170.43349"
+         style="stroke-width:0.264583">LED Output</tspan></text>
+  </g>
+</svg>
