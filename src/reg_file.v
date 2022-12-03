@@ -5,7 +5,7 @@ module reg_file #(
     input  wire clk,rd,wr,
     input  wire[NUMRF-1:0]  reg_out, reg_in,
     input  wire[SIZE-1:0]  data_in,
-    output  reg[SIZE-1:0]  data_out
+    output wire[SIZE-1:0]  data_out
 );
     reg [SIZE-1:0] regfile[(1<<NUMRF)-1:0];
 
