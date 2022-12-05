@@ -18,6 +18,8 @@ project:
 # This info will be automatically collected and used to make a datasheet for the chip.
 documentation: 
   author:       "Majdi Abdul Samad"      # Your name
+  institution:  "ECE Dept., American University of Beirut"
+  email:        "mia42@mail.aub.edu"
   discord:      "mia42#1188"      # Your discord handle - make sure to include the # part as well
   title:        "Femto 4-bit CPU"      # Project title
   description:  "Design of a small single-cycle CPU with simple RISC/Accumulator ISA"      # Short description of what your project does
