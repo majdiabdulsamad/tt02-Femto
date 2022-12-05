@@ -17,14 +17,14 @@ project:
 #
 # This info will be automatically collected and used to make a datasheet for the chip.
 documentation: 
-  author:       "Majdi Abdul Samad"      # Your name
-  institution:  "ECE Dept., American University of Beirut"
-  email:        "mia42@mail.aub.edu"
+  author:       "Majdi Abdul Samad, ECE Dept., American University of Beirut (mia42@mail.aub.edu)"      # Your name
+#   institution:  "ECE Dept., American University of Beirut"
+#   email:        "mia42@mail.aub.edu"
   discord:      "mia42#1188"      # Your discord handle - make sure to include the # part as well
   title:        "Femto 4-bit CPU"      # Project title
   description:  "Design of a small single-cycle CPU with simple RISC/Accumulator ISA"      # Short description of what your project does
-  how_it_works: "Contains a register file, ALU, and 7 segment decoder. Instructions are sent in from inputs 7 downto 1 (0 reserved for clk), the register source and destination are sent to the register file (synch write/asynch read). Opcode and register read data are sent to the ALU for the operation. The output data could be stored in the ALU, the reigster file, or sent to the 7 segment decoder to power the LED output."      # Longer description of how the project works
-  how_to_test:  "Design was tested with a ModelSim TCL script, provided here and should be compatible with other TCL accepting simulators."      # Instructions on how someone could test your project, include things like what buttons do what and how to set the clock if needed
+  how_it_works: "NOTE: ISA is included in the ReadMe. Contains a register file, ALU, and 7 segment decoder. Instructions are sent in from inputs 7 downto 1 (0 reserved for clk), the register source and destination are sent to the register file (synch write/asynch read). Opcode and register read data are sent to the ALU for the operation. The output data could be stored in the ALU, the reigster file, or sent to the 7 segment decoder to power the LED output. See the ReadMe for more details."      # Longer description of how the project works
+  how_to_test:  "Design was tested with a ModelSim TCL script, provided here and should be compatible with other TCL accepting simulators. A cocotb testbench will also be made available."      # Instructions on how someone could test your project, include things like what buttons do what and how to set the clock if needed
   external_hw:  "None"      # Describe any external hardware needed
   language:     "Verilog" # other examples include Verilog, Amaranth, VHDL, etc
   doc_link:     "README.md"      # URL to longer form documentation, eg the README.md in your repository
