@@ -6,7 +6,7 @@ Femto is a 4-bit CPU that uses a RISC/Accumulator based ISA. It contains a 4-bit
 ![](Femto-arch.svg)
 
 # Interface
-##Input
+## Input
 
 As per the Tinytapeout requirements, Femto uses an 8-bit input interface. One bit is used for the clock, and reset is omitted from the interface to give more capability to the ISA. Instead, the accumulator must be reset and then stored to all of the registers.
 
@@ -14,7 +14,7 @@ As per the Tinytapeout requirements, Femto uses an 8-bit input interface. One bi
 | ----------- | ----- |
 |   7 bits    | 1 bit |
 
-##Output
+## Output
 
 As per the Tinytapeout requirements, Femto uses an 8-bit output interface, with only 7 being used for LED output.
 
@@ -33,16 +33,11 @@ Femto uses a 7-bit instruction ISA. The fields and encodings are provided below.
 
 | Encoding |  Instruction  |
 | -------- | ------------- |
-|  src,dest,010 |  ADD    |
-| -------- | ------------- |
-|  src,dest,011 |  NOT    |
-| -------- | ------------- |
-|  src,dest,100 |  AND    |
-| -------- | ------------- |
-|  src,dest,101 |  XOR    |
-| -------- | ------------- |
-|  rsvd,dest,110 |  STOREACC    |
-| -------- | ------------- |
+|  src,rsvd,010 |  ADD    |
+|  src,rsvd,011 |  NOT    |
+|  src,rsvd,100 |  AND    |
+|  src,rsvd,101 |  XOR    |
+|  rsvd,rsvd,110 |  STOREACC    |
 |  src,rsvd,111 |  DISPLAY    |
 
 #### I-Type
@@ -50,7 +45,6 @@ Femto uses a 7-bit instruction ISA. The fields and encodings are provided below.
 | Encoding |  Instruction  |
 | -------- | ------------- |
 |  00,00,000 |  NOP    |
-| -------- | ------------- |
 |  imm[3:2],imm[1:0],001 |  LOADACCI    |
 
 #### CSR Instructions
@@ -59,9 +53,7 @@ Femto has additional instructions to alter CPU state
 | Encoding |  Instruction  |
 | -------- | ------------- |
 |  10,00,000 |  Set to IDLE    |
-| -------- | ------------- |
 |  10,01,000 |  Set to RUN    |
-| -------- | ------------- |
 |  10,10,000 |  Set to LOADBUF    |
 
 IDLE: CPU does not process any instructions, and cannot write to the instruction buffer.
